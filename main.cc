@@ -100,7 +100,7 @@ int main(int argc, char* argv[]) {
             }
         };
 
-        // Create a thread with the lambda function
+        //Crea al thread y lo emplea en la función para el histograma
         threads.emplace_back(threadFunction);
     }
 
